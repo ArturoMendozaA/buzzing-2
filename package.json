@@ -1,0 +1,31 @@
+{
+  "name": "fizzbuzz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/.bin/jest",
+    "linter": "node ./node_modules/eslint/bin/eslint.js .",
+    "linter-fix": "node ./node_modules/eslint/bin/eslint.js . --fix",
+    "server": "node ./app/lib/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArturoMendozaA/Buzzing.git"
+  },
+  "author": "ArturoMendozaA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArturoMendozaA/Buzzing/issues"
+  },
+  "homepage": "https://github.com/ArturoMendozaA/Buzzing#readme",
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "eslint": "^8.14.0",
+    "jest": "^26.0.0"
+  },
+  "dependencies": {
+    "cucumber": "^6.0.7",
+    "express": "^4.18.1"
+  }
+}
